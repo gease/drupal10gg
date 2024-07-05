@@ -1,0 +1,20 @@
+uuid: a8e2a22e-3fd3-45bb-b841-9a3a54d22a0c
+langcode: en
+status: false
+dependencies:
+  theme:
+    - gg_test_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: gg_test_theme_page_title
+theme: gg_test_theme
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

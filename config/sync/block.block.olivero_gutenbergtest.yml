@@ -1,0 +1,21 @@
+uuid: ed6fa6aa-54a0-46cc-a2f2-e3543131ca30
+langcode: en
+status: true
+dependencies:
+  module:
+    - gg_test
+  theme:
+    - olivero
+id: olivero_gutenbergtest
+theme: olivero
+region: header
+weight: 0
+provider: null
+plugin: gg_test_block
+settings:
+  id: gg_test_block
+  label: 'Gutenberg Test'
+  label_display: '0'
+  provider: gg_test
+  random_text: 'Lets try this'
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: 651f3608-9ac2-4186-9381-63c40993d646
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - gutenberg
+_core:
+  default_config_hash: w33dlTDB4IqbXAL8jHkcYJOKZw3UPIF3K4nHXoCrDJ8
+id: reusable_block
+label: Pattern
+revision: 0
+description: 'Build your pattern on Gutenberg editor and re-use it everywhere.'

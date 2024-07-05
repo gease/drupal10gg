@@ -1,0 +1,22 @@
+uuid: fb46f7cc-54aa-43ea-a3e2-ddc656c05c15
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - gg_test_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: gg_test_theme_powered
+theme: gg_test_theme
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

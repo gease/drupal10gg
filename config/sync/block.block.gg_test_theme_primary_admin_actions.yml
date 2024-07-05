@@ -1,0 +1,20 @@
+uuid: af6f47da-00e9-4ff4-b017-8b78d8ba4818
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gg_test_theme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: gg_test_theme_primary_admin_actions
+theme: gg_test_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
