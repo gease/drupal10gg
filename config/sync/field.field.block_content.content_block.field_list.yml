@@ -1,0 +1,21 @@
+uuid: e1002708-5468-45b7-a401-4cbee9cb5923
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_block
+    - field.storage.block_content.field_list
+  module:
+    - options
+id: block_content.content_block.field_list
+field_name: field_list
+entity_type: block_content
+bundle: content_block
+label: List
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

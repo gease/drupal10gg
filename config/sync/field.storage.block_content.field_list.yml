@@ -1,0 +1,30 @@
+uuid: e4e31904-21b7-43cf-ac81-a2c3bb21d9a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_list
+field_name: field_list
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: One
+    -
+      value: '2'
+      label: Two
+    -
+      value: '3'
+      label: Three
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

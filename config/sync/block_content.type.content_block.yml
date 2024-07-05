@@ -1,0 +1,8 @@
+uuid: 1f7211ed-fa21-4e2d-94fa-fd32431b2a12
+langcode: en
+status: true
+dependencies: {  }
+id: content_block
+label: 'Content block'
+revision: false
+description: 'Block with fields'

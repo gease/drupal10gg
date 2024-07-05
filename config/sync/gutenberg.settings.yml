@@ -32,7 +32,8 @@ article_allowed_blocks:
   - core/text-columns
   - core/verse
   - core/video
-article_allowed_content_block_types: {  }
+article_allowed_content_block_types:
+  - content-block/content_block
 article_allowed_drupal_blocks:
   - gg_test_block
   - search_form_block
