@@ -1,0 +1,8 @@
+name: Gutenberg Playground
+type: module
+description: "Module to test Gutenberg functionality"
+package: Other
+core_version_requirement: ^9.5 || ^10
+php: 8.3
+dependencies:
+  - drupal:block
