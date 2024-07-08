@@ -1,0 +1,5 @@
+campaign:
+  js:
+    js/campaign.js: {}
+  dependencies:
+    - core/jquery
